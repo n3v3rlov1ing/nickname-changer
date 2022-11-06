@@ -2,8 +2,8 @@ from telethon.sync import TelegramClient
 from telethon import functions, types
 
 # Enter data from my.telegram.org
-api_id = 14267457
-api_hash = 'ff498b9a4d8e4ef040a975fc67b14af3'
+api_id = 0
+api_hash = ''
 client = TelegramClient('anon', api_id, api_hash)
 
 first_name = input('Enter first name: ')
